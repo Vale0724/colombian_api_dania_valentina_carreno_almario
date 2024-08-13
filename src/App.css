@@ -1,0 +1,51 @@
+/* General styling for the body */
+body {
+  font-family: Arial, sans-serif; /* Set a clean, readable font */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #f5f5f5; /* Light gray background color */
+}
+
+/* Styling for the navigation bar */
+nav {
+  background-color: #333; /* Dark background color for the nav bar */
+  padding: 1rem; /* Add padding around the nav bar */
+}
+
+/* Styling for buttons within the nav bar */
+nav button {
+  color: white; /* White text color */
+  background: none; /* Remove default background */
+  border: none; /* Remove default border */
+  padding: 0.5rem 1rem; /* Add padding inside the buttons */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  font-size: 1rem; /* Set font size */
+}
+
+/* Styling for buttons on hover */
+nav button:hover {
+  background-color: #555; /* Darken background color on hover */
+}
+
+/* Styling for all h2 elements */
+h2 {
+  color: #333; /* Dark text color for headings */
+}
+
+/* General styling for div elements */
+div {
+  margin: 1rem; /* Add margin around div elements */
+}
+
+/* Styling for chart container */
+.chart-container {
+  background: white; /* White background for the chart container */
+  padding: 1rem; /* Add padding inside the container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for paragraph elements */
+p {
+  color: #666; /* Gray text color for paragraphs */
+}

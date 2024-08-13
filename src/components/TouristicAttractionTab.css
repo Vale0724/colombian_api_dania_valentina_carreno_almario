@@ -1,0 +1,56 @@
+/* 
+.chart-container: Styles the container holding charts or tables.
+Provides a white background, padding, rounded corners, and a subtle shadow 
+to enhance the visual appearance and focus on the content.
+*/
+.chart-container {
+    background: white; /* Sets the background color to white for a clean look */
+    padding: 1rem; /* Adds padding inside the container for spacing around the content */
+    border-radius: 8px; /* Rounds the corners of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Applies a subtle shadow to give a sense of depth */
+  }
+  
+  /* 
+  p: Styles the text within paragraph elements.
+  Sets a light gray color for a soft and neutral text appearance.
+  */
+  p {
+    color: #666; /* Sets the text color to a medium gray for readability */
+  }
+  
+  /* 
+  .table-container: Ensures the table fits within its container 
+  and allows horizontal scrolling if the table exceeds the container's width.
+  */
+  .table-container {
+    width: 100%; /* Sets the width to 100% of the container */
+    overflow-x: auto; /* Enables horizontal scrolling if the table is too wide */
+  }
+  
+  /* 
+  table: Styles the table element to ensure it takes up the full width 
+  of its container and prevents double borders by collapsing adjacent borders.
+  */
+  table {
+    width: 100%; /* Sets the table width to 100% of the table-container */
+    border-collapse: collapse; /* Collapses borders to avoid double borders between cells */
+  }
+  
+  /* 
+  th, td: Applies styling to table header and data cells.
+  Includes padding, border, and text alignment.
+  */
+  th, td {
+    padding: 8px 12px; /* Adds padding inside each cell for better spacing */
+    border: 1px solid #ddd; /* Applies a light gray border to separate cells */
+    text-align: left; /* Aligns text to the left within cells */
+  }
+  
+  /* 
+  th: Styles table header cells.
+  Provides a light gray background to distinguish headers from data rows.
+  */
+  th {
+    background-color: #f4f4f4; /* Sets a light gray background color for header cells */
+  }
+  
